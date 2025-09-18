@@ -1,0 +1,34 @@
+# Work Activity Monitor Configuration
+
+# Email settings
+email:
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  sender_email: "vishnulohit05@gmail.com"
+  sender_password: "Vishnu@05jan2004"  # Use app password for Gmail
+  recipient_email: "vishnuragav2004@gmail.com"
+  
+# Monitoring settings
+monitoring:
+  idle_threshold_minutes: 1
+  check_interval_seconds: 15
+  screenshot_interval_seconds: 60
+  
+# Working hours (24-hour format)
+working_hours:
+  start_time: "00:00"
+  end_time: "23:59"
+  timezone: "UTC"
+  
+# ML Model settings
+model:
+  model_path: "models/activity_classifier.joblib"
+  retrain_interval_days: 7
+  confidence_threshold: 0.7
+  
+# Logging
+logging:
+  level: "INFO"
+  log_file: "logs/activity_monitor.log"
+  max_log_size_mb: 50
+  backup_count: 5

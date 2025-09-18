@@ -1,0 +1,27 @@
+# Core dependencies
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+joblib>=1.1.0
+
+# System monitoring
+psutil>=5.8.0
+pynput>=1.7.0
+Pillow>=8.3.0
+opencv-python>=4.5.0
+
+# Email functionality (smtplib is built-in)
+# No additional email dependencies needed
+
+# Configuration and logging
+PyYAML>=6.0
+click>=8.0.0
+
+# Data visualization (for model training)
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Development dependencies
+pytest>=6.2.0
+black>=21.0.0
+flake8>=4.0.0

@@ -1,0 +1,104 @@
+2025-09-18 23:47:05 - work_monitor.ml_model - INFO - train_model:154 - Training activity classification model
+2025-09-18 23:47:05 - work_monitor.ml_model - INFO - create_synthetic_training_data:84 - Generating 1000 synthetic training samples
+2025-09-18 23:47:06 - work_monitor.ml_model - INFO - train_model:215 - Model training completed:
+2025-09-18 23:47:06 - work_monitor.ml_model - INFO - train_model:216 -   Training accuracy: 1.000
+2025-09-18 23:47:06 - work_monitor.ml_model - INFO - train_model:217 -   Test accuracy: 1.000
+2025-09-18 23:47:06 - work_monitor.ml_model - INFO - train_model:218 -   CV accuracy: 1.000 (+/- 0.000)
+2025-09-18 23:47:06 - work_monitor.ml_model - INFO - train_model:222 - Feature importance:
+2025-09-18 23:47:06 - work_monitor.ml_model - INFO - train_model:224 -   keyboard_events: 0.356
+2025-09-18 23:47:06 - work_monitor.ml_model - INFO - train_model:224 -   mouse_events: 0.271
+2025-09-18 23:47:06 - work_monitor.ml_model - INFO - train_model:224 -   mouse_distance: 0.206
+2025-09-18 23:47:06 - work_monitor.ml_model - INFO - train_model:224 -   active_window_changes: 0.092
+2025-09-18 23:47:06 - work_monitor.ml_model - INFO - train_model:224 -   cpu_usage: 0.047
+2025-09-18 23:47:06 - work_monitor.ml_model - INFO - train_model:224 -   screen_change_score: 0.024
+2025-09-18 23:47:06 - work_monitor.ml_model - INFO - train_model:224 -   memory_usage: 0.003
+2025-09-18 23:47:06 - work_monitor.ml_model - INFO - save_model:340 - Model saved to models\activity_classifier.joblib
+2025-09-18 23:53:21 - work_monitor.ml_model - INFO - load_model:356 - Model loaded from models\activity_classifier.joblib
+2025-09-18 23:53:21 - work_monitor.ml_model - INFO - load_model:357 - Model trained at: 2025-09-18 23:47:49.461877
+2025-09-18 23:53:21 - work_monitor.ml_model - INFO - load_model:358 - Model accuracy: 1.0
+2025-09-18 23:53:21 - work_monitor.work_monitor - INFO - _initialize_components:90 - Email notifications enabled
+2025-09-18 23:53:21 - work_monitor.work_monitor - INFO - start:104 - Starting work monitor
+2025-09-18 23:53:21 - work_monitor.activity_monitor - INFO - start_monitoring:110 - Starting activity monitoring
+2025-09-18 23:53:21 - work_monitor.work_monitor - INFO - _monitoring_loop:150 - Monitoring loop started
+2025-09-18 23:53:21 - work_monitor.work_monitor - INFO - start:116 - Work monitor started successfully
+2025-09-18 23:53:51 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 0 (0.512) | Idle periods: 0 [ANOMALY]
+2025-09-18 23:54:21 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.927) | Idle periods: 0 [ANOMALY]
+2025-09-18 23:54:51 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.992) | Idle periods: 0 [ANOMALY]
+2025-09-18 23:55:21 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.992) | Idle periods: 0 [ANOMALY]
+2025-09-18 23:55:51 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.992) | Idle periods: 0 [ANOMALY]
+2025-09-18 23:56:21 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.992) | Idle periods: 0 [ANOMALY]
+2025-09-18 23:56:30 - work_monitor.work_monitor - INFO - stop:128 - Stopping work monitor
+2025-09-18 23:56:30 - work_monitor.activity_monitor - INFO - stop_monitoring:130 - Stopping activity monitoring
+2025-09-18 23:56:30 - work_monitor.work_monitor - INFO - _monitoring_loop:174 - Monitoring loop ended
+2025-09-18 23:56:30 - work_monitor.work_monitor - INFO - stop:146 - Work monitor stopped
+2025-09-18 23:56:40 - work_monitor.ml_model - INFO - load_model:356 - Model loaded from models\activity_classifier.joblib
+2025-09-18 23:56:40 - work_monitor.ml_model - INFO - load_model:357 - Model trained at: 2025-09-18 23:47:49.461877
+2025-09-18 23:56:40 - work_monitor.ml_model - INFO - load_model:358 - Model accuracy: 1.0
+2025-09-18 23:56:40 - work_monitor.work_monitor - INFO - _initialize_components:90 - Email notifications enabled
+2025-09-18 23:56:40 - work_monitor.work_monitor - INFO - start:104 - Starting work monitor
+2025-09-18 23:56:40 - work_monitor.activity_monitor - INFO - start_monitoring:110 - Starting activity monitoring
+2025-09-18 23:56:40 - work_monitor.work_monitor - INFO - _monitoring_loop:150 - Monitoring loop started
+2025-09-18 23:56:40 - work_monitor.work_monitor - INFO - start:116 - Work monitor started successfully
+2025-09-18 23:57:10 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: IDLE | ML: 0 (0.803) | Idle periods: 1 [ANOMALY]
+2025-09-18 23:57:41 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.811) | Idle periods: 0 [ANOMALY]
+2025-09-18 23:58:11 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.960) | Idle periods: 0 [ANOMALY]
+2025-09-18 23:58:41 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.983) | Idle periods: 0 [ANOMALY]
+2025-09-19 00:08:01 - work_monitor.work_monitor - INFO - stop:128 - Stopping work monitor
+2025-09-19 00:08:01 - work_monitor.activity_monitor - INFO - stop_monitoring:130 - Stopping activity monitoring
+2025-09-19 00:08:01 - work_monitor.work_monitor - INFO - _monitoring_loop:174 - Monitoring loop ended
+2025-09-19 00:08:01 - work_monitor.work_monitor - INFO - stop:146 - Work monitor stopped
+2025-09-19 00:09:55 - work_monitor.ml_model - INFO - load_model:356 - Model loaded from models\activity_classifier.joblib
+2025-09-19 00:09:55 - work_monitor.ml_model - INFO - load_model:357 - Model trained at: 2025-09-18 23:47:49.461877
+2025-09-19 00:09:55 - work_monitor.ml_model - INFO - load_model:358 - Model accuracy: 1.0
+2025-09-19 00:09:55 - work_monitor.work_monitor - INFO - _initialize_components:90 - Email notifications enabled
+2025-09-19 00:09:55 - work_monitor.work_monitor - INFO - start:104 - Starting work monitor
+2025-09-19 00:09:55 - work_monitor.activity_monitor - INFO - start_monitoring:110 - Starting activity monitoring
+2025-09-19 00:09:55 - work_monitor.work_monitor - INFO - _monitoring_loop:150 - Monitoring loop started
+2025-09-19 00:09:55 - work_monitor.work_monitor - INFO - start:116 - Work monitor started successfully
+2025-09-19 00:10:10 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: IDLE | ML: 0 (0.958) | Idle periods: 1 [ANOMALY]
+2025-09-19 00:10:25 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.665) | Idle periods: 0 [ANOMALY]
+2025-09-19 00:10:40 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.764) | Idle periods: 0 [ANOMALY]
+2025-09-19 00:10:55 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.757) | Idle periods: 0 [ANOMALY]
+2025-09-19 00:11:10 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.947) | Idle periods: 0 [ANOMALY]
+2025-09-19 00:11:25 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.947) | Idle periods: 0 [ANOMALY]
+2025-09-19 00:11:40 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.947) | Idle periods: 0 [ANOMALY]
+2025-09-19 00:11:55 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.940) | Idle periods: 0 [ANOMALY]
+2025-09-19 00:12:10 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.940) | Idle periods: 0 [ANOMALY]
+2025-09-19 00:12:25 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.940) | Idle periods: 0 [ANOMALY]
+2025-09-19 00:12:41 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.940) | Idle periods: 0 [ANOMALY]
+2025-09-19 00:12:56 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.945) | Idle periods: 0 [ANOMALY]
+2025-09-19 00:13:11 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.963) | Idle periods: 0 [ANOMALY]
+2025-09-19 00:13:26 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.973) | Idle periods: 0 [ANOMALY]
+2025-09-19 00:13:41 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.973) | Idle periods: 0 [ANOMALY]
+2025-09-19 00:13:56 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.973) | Idle periods: 0 [ANOMALY]
+2025-09-19 00:14:11 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.978) | Idle periods: 0 [ANOMALY]
+2025-09-19 00:14:22 - work_monitor.work_monitor - INFO - stop:128 - Stopping work monitor
+2025-09-19 00:14:22 - work_monitor.activity_monitor - INFO - stop_monitoring:130 - Stopping activity monitoring
+2025-09-19 00:14:22 - work_monitor.work_monitor - INFO - _monitoring_loop:174 - Monitoring loop ended
+2025-09-19 00:14:22 - work_monitor.work_monitor - INFO - stop:146 - Work monitor stopped
+2025-09-19 00:20:06 - work_monitor.email_service - ERROR - _send_email:344 - SMTP authentication failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-26980368e11sm31894165ad.150 - gsmtp')
+2025-09-19 00:20:06 - work_monitor.email_service - ERROR - test_connection:186 - Email test failed
+2025-09-19 00:21:20 - work_monitor.ml_model - INFO - load_model:356 - Model loaded from models\activity_classifier.joblib
+2025-09-19 00:21:20 - work_monitor.ml_model - INFO - load_model:357 - Model trained at: 2025-09-18 23:47:49.461877
+2025-09-19 00:21:20 - work_monitor.ml_model - INFO - load_model:358 - Model accuracy: 1.0
+2025-09-19 00:21:20 - work_monitor.work_monitor - INFO - _initialize_components:90 - Email notifications enabled
+2025-09-19 00:21:20 - work_monitor.work_monitor - INFO - start:104 - Starting work monitor
+2025-09-19 00:21:20 - work_monitor.activity_monitor - INFO - start_monitoring:110 - Starting activity monitoring
+2025-09-19 00:21:20 - work_monitor.work_monitor - INFO - _monitoring_loop:150 - Monitoring loop started
+2025-09-19 00:21:20 - work_monitor.work_monitor - INFO - start:116 - Work monitor started successfully
+2025-09-19 00:21:35 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: IDLE | ML: 0 (0.968) | Idle periods: 1 [ANOMALY]
+2025-09-19 00:21:50 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: IDLE | ML: 0 (0.963) | Idle periods: 2 [ANOMALY]
+2025-09-19 00:22:05 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: IDLE | ML: 0 (0.968) | Idle periods: 3 [ANOMALY]
+2025-09-19 00:22:24 - work_monitor.email_service - ERROR - _send_email:344 - SMTP authentication failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-26980302b20sm32672375ad.101 - gsmtp')
+2025-09-19 00:22:24 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: IDLE | ML: 0 (0.958) | Idle periods: 4 [ANOMALY]
+2025-09-19 00:22:41 - work_monitor.email_service - ERROR - _send_email:344 - SMTP authentication failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-26980053230sm32239355ad.30 - gsmtp')
+2025-09-19 00:22:41 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: IDLE | ML: 0 (0.968) | Idle periods: 5 [ANOMALY]
+2025-09-19 00:22:58 - work_monitor.email_service - ERROR - _send_email:344 - SMTP authentication failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-269803163a1sm31905355ad.117 - gsmtp')
+2025-09-19 00:22:58 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: IDLE | ML: 0 (0.968) | Idle periods: 6 [ANOMALY]
+2025-09-19 00:23:13 - work_monitor.work_monitor - INFO - _log_activity_summary:281 - Activity: WORKING | ML: 1 (0.947) | Idle periods: 0 [ANOMALY]
+2025-09-19 00:23:25 - work_monitor.work_monitor - INFO - stop:128 - Stopping work monitor
+2025-09-19 00:23:25 - work_monitor.activity_monitor - INFO - stop_monitoring:130 - Stopping activity monitoring
+2025-09-19 00:23:25 - work_monitor.work_monitor - INFO - _monitoring_loop:174 - Monitoring loop ended
+2025-09-19 00:23:25 - work_monitor.work_monitor - INFO - stop:146 - Work monitor stopped
+2025-09-19 00:23:32 - work_monitor.email_service - ERROR - _send_email:344 - SMTP authentication failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2698033d788sm32737395ad.127 - gsmtp')
+2025-09-19 00:23:32 - work_monitor.email_service - ERROR - test_connection:186 - Email test failed
